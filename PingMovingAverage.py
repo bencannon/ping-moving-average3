@@ -1,26 +1,8 @@
 #!/usr/bin/env python
 
-# pingMovingAverage.py
-# Copywrong 2013 Alison Chan alisonc@alisonc.net
-# Released under terms of the WTFPL v2, included hereunder
-#
-#        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-#                    Version 2, December 2004 
-#
-# Copyright (C) 2004 Sam Hocevar <sam@hocevar.net> 
-#
-# Everyone is permitted to copy and distribute verbatim or modified 
-# copies of this license document, and changing it is allowed as long 
-# as the name is changed. 
-#
-#            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-#   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
-#
-#  0. You just DO WHAT THE FUCK YOU WANT TO.
-#
-
 """
 PingMovingAverage
+(Python 2 only -- see PingMovingAverage3 for newer, Python3 compliant version)
 
 Continually pings a server and calculates the moving average of the last few 
 pings.
